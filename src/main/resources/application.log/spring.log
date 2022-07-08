@@ -1,0 +1,521 @@
+2022-07-08 18:49:54.400  INFO 1736 --- [main] r.a.k.KamilowaHandMadeApplication        : Starting KamilowaHandMadeApplication using Java 17.0.3.1 on LAPTOP-TP7586JQ with PID 1736 (C:\Users\Omar Akkulov\Desktop\kamilowa_hand_made_17\target\classes started by Omar Akkulov in C:\Users\Omar Akkulov\Desktop\kamilowa_hand_made_17)
+2022-07-08 18:49:54.403  INFO 1736 --- [main] r.a.k.KamilowaHandMadeApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-07-08 18:49:55.284  INFO 1736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-08 18:49:55.295  INFO 1736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-08 18:49:55.295  INFO 1736 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-08 18:49:55.399  INFO 1736 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-08 18:49:55.399  INFO 1736 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 948 ms
+2022-07-08 18:49:55.539  INFO 1736 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 8.5.13 by Redgate
+2022-07-08 18:49:55.539  INFO 1736 --- [main] o.f.c.internal.license.VersionPrinter    : See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+2022-07-08 18:49:55.539  INFO 1736 --- [main] o.f.c.internal.license.VersionPrinter    : 
+2022-07-08 18:49:55.685  INFO 1736 --- [main] o.f.c.i.database.base.BaseDatabaseType   : Database: jdbc:postgresql://localhost:5432/kamilowa_hand_made_db (PostgreSQL 14.1)
+2022-07-08 18:49:55.717  INFO 1736 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 3 migrations (execution time 00:00.020s)
+2022-07-08 18:49:55.722  INFO 1736 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 1.2
+2022-07-08 18:49:55.723  INFO 1736 --- [main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2022-07-08 18:49:55.789  INFO 1736 --- [main] org.jooq.codegen.GenerationTool          : Database                 : Inferring driver org.postgresql.Driver from URL jdbc:postgresql://localhost:5432/kamilowa_hand_made_db
+2022-07-08 18:49:55.882  INFO 1736 --- [main] org.jooq.codegen.GenerationTool          : No <inputCatalog/> was provided. Generating ALL available catalogs instead.
+2022-07-08 18:49:55.900  INFO 1736 --- [main] org.jooq.codegen.AbstractGenerator       : License parameters       
+2022-07-08 18:49:55.900  INFO 1736 --- [main] org.jooq.codegen.AbstractGenerator       : ----------------------------------------------------------
+2022-07-08 18:49:55.900  INFO 1736 --- [main] org.jooq.codegen.AbstractGenerator       :   Thank you for using jOOQ and jOOQ's code generator
+2022-07-08 18:49:55.900  INFO 1736 --- [main] org.jooq.codegen.AbstractGenerator       :                          
+2022-07-08 18:49:55.900  INFO 1736 --- [main] org.jooq.codegen.AbstractGenerator       : Database parameters      
+2022-07-08 18:49:55.900  INFO 1736 --- [main] org.jooq.codegen.AbstractGenerator       : ----------------------------------------------------------
+2022-07-08 18:49:55.900  INFO 1736 --- [main] org.jooq.codegen.AbstractGenerator       :   dialect                : POSTGRES
+2022-07-08 18:49:55.900  INFO 1736 --- [main] org.jooq.codegen.AbstractGenerator       :   URL                    : jdbc:postgresql://localhost:5432/kamilowa_hand_made_db
+2022-07-08 18:49:55.900  INFO 1736 --- [main] org.jooq.codegen.AbstractGenerator       :   target dir             : C:\Users\Omar Akkulov\Desktop\kamilowa_hand_made_17\target\generated-sources\jooq
+2022-07-08 18:49:55.900  INFO 1736 --- [main] org.jooq.codegen.AbstractGenerator       :   target package         : ru.akkulov.kamilowa_hand_made
+2022-07-08 18:49:55.900  INFO 1736 --- [main] org.jooq.codegen.AbstractGenerator       :   includes               : [.*]
+2022-07-08 18:49:55.900  INFO 1736 --- [main] org.jooq.codegen.AbstractGenerator       :   excludes               : []
+2022-07-08 18:49:55.900  INFO 1736 --- [main] org.jooq.codegen.AbstractGenerator       :   includeExcludeColumns  : false
+2022-07-08 18:49:55.900  INFO 1736 --- [main] org.jooq.codegen.AbstractGenerator       : ----------------------------------------------------------
+2022-07-08 18:49:55.900  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :                          
+2022-07-08 18:49:55.900  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : JavaGenerator parameters 
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : ----------------------------------------------------------
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   annotations (generated): false
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   annotations (JPA: any) : false
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   annotations (JPA: version): 
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   annotations (validation): false
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   comments               : true
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   comments on attributes : true
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   comments on catalogs   : true
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   comments on columns    : true
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   comments on keys       : true
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   comments on links      : true
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   comments on packages   : true
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   comments on parameters : true
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   comments on queues     : true
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   comments on routines   : true
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   comments on schemas    : true
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   comments on sequences  : true
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   comments on tables     : true
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   comments on udts       : true
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   sources                : true
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   sources on views       : true
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   daos                   : false
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   deprecated code        : true
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   global references (any): true
+2022-07-08 18:49:55.901  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   global references (catalogs): true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   global references (keys): true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   global references (links): true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   global references (queues): true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   global references (routines): true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   global references (schemas): true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   global references (sequences): true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   global references (tables): true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   global references (udts): true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   indexes                : true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   instance fields        : true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   interfaces             : false
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   interfaces (immutable) : false
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   javadoc                : true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   keys                   : true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   links                  : true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   pojos                  : false
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   pojos (immutable)      : false
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   queues                 : true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   records                : true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   routines               : true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   sequences              : true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   sequenceFlags          : true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   table-valued functions : true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   tables                 : true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   udts                   : true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :   relations              : true
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : ----------------------------------------------------------
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :                          
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.AbstractGenerator       : Generation remarks       
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.AbstractGenerator       : ----------------------------------------------------------
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :                          
+2022-07-08 18:49:55.902  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : ----------------------------------------------------------
+2022-07-08 18:49:55.904  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating catalogs      : Total: 1
+2022-07-08 18:49:56.109  INFO 1736 --- [main] org.jooq.Constants                       : 
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.13.4
+                                      
+2022-07-08 18:49:56.177  INFO 1736 --- [main] org.jooq.meta.AbstractDatabase           : ARRAYs fetched           : 0 (0 included, 0 excluded)
+2022-07-08 18:49:56.198  INFO 1736 --- [main] org.jooq.meta.AbstractDatabase           : Enums fetched            : 0 (0 included, 0 excluded)
+2022-07-08 18:49:56.198  INFO 1736 --- [main] org.jooq.meta.AbstractDatabase           : Packages fetched         : 0 (0 included, 0 excluded)
+2022-07-08 18:49:56.225  INFO 1736 --- [main] org.jooq.meta.AbstractDatabase           : Routines fetched         : 0 (0 included, 0 excluded)
+2022-07-08 18:49:56.238  INFO 1736 --- [main] org.jooq.meta.AbstractDatabase           : Sequences fetched        : 5 (5 included, 0 excluded)
+2022-07-08 18:49:56.238  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : No schema version is applied for catalog . Regenerating.
+2022-07-08 18:49:56.239  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :                          
+2022-07-08 18:49:56.239  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating catalog       : DefaultCatalog.java
+2022-07-08 18:49:56.239  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : ==========================================================
+2022-07-08 18:49:56.242  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating schemata      : Total: 1
+2022-07-08 18:49:56.242  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : No schema version is applied for schema public. Regenerating.
+2022-07-08 18:49:56.242  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating schema        : Public.java
+2022-07-08 18:49:56.242  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : ----------------------------------------------------------
+2022-07-08 18:49:56.265  INFO 1736 --- [main] org.jooq.meta.AbstractDatabase           : Tables fetched           : 6 (6 included, 0 excluded)
+2022-07-08 18:49:56.286  INFO 1736 --- [main] org.jooq.meta.AbstractDatabase           : UDTs fetched             : 0 (0 included, 0 excluded)
+2022-07-08 18:49:56.287  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating sequences     
+2022-07-08 18:49:56.294  INFO 1736 --- [main] org.jooq.tools.StopWatch                 : Sequences generated      : Total: 417.632ms
+2022-07-08 18:49:56.295  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating tables        
+2022-07-08 18:49:56.378  INFO 1736 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : management_role_created_by_id_fkey (public.management_role.created_by_id) referencing management_user_pkey
+2022-07-08 18:49:56.378  INFO 1736 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : management_role_last_modified_by_id_fkey (public.management_role.last_modified_by_id) referencing management_user_pkey
+2022-07-08 18:49:56.378  INFO 1736 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : management_user_created_by_id_fkey (public.management_user.created_by_id) referencing management_user_pkey
+2022-07-08 18:49:56.378  INFO 1736 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : management_user_last_modified_by_id_fkey (public.management_user.last_modified_by_id) referencing management_user_pkey
+2022-07-08 18:49:56.378  INFO 1736 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : order_info_created_by_id_fkey (public.order_info.created_by_id) referencing management_user_pkey
+2022-07-08 18:49:56.378  INFO 1736 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : order_info_last_modified_by_id_fkey (public.order_info.last_modified_by_id) referencing management_user_pkey
+2022-07-08 18:49:56.378  INFO 1736 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : order_info_order_type_id_fkey (public.order_info.order_type_id) referencing order_type_pkey
+2022-07-08 18:49:56.378  INFO 1736 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : order_type_created_by_id_fkey (public.order_type.created_by_id) referencing management_user_pkey
+2022-07-08 18:49:56.379  INFO 1736 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : order_type_last_modified_by_id_fkey (public.order_type.last_modified_by_id) referencing management_user_pkey
+2022-07-08 18:49:56.379  INFO 1736 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : website_user_created_by_id_fkey (public.website_user.created_by_id) referencing management_user_pkey
+2022-07-08 18:49:56.379  INFO 1736 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : website_user_last_modified_by_id_fkey (public.website_user.last_modified_by_id) referencing management_user_pkey
+2022-07-08 18:49:56.379  INFO 1736 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : website_user_management_role_fkey (public.website_user.management_role) referencing management_role_pkey
+2022-07-08 18:49:56.379  INFO 1736 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : website_user_order_id_fkey (public.website_user.order_id) referencing order_info_pkey
+2022-07-08 18:49:56.386  INFO 1736 --- [main] org.jooq.meta.AbstractDatabase           : Synthetic primary keys   : 0 (0 included, 0 excluded)
+2022-07-08 18:49:56.387  INFO 1736 --- [main] org.jooq.meta.AbstractDatabase           : Overriding primary keys  : 8 (0 included, 8 excluded)
+2022-07-08 18:49:56.389  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating table         : FlywaySchemaHistory.java [input=flyway_schema_history, output=flyway_schema_history, pk=flyway_schema_history_pk]
+2022-07-08 18:49:56.397  INFO 1736 --- [main] org.jooq.meta.AbstractDatabase           : Embeddables fetched      : 0 (0 included, 0 excluded)
+2022-07-08 18:49:56.411  INFO 1736 --- [main] org.jooq.meta.AbstractDatabase           : Indexes fetched          : 1 (1 included, 0 excluded)
+2022-07-08 18:49:56.419  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating table         : ManagementRole.java [input=management_role, output=management_role, pk=management_role_pkey]
+2022-07-08 18:49:56.442  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating table         : ManagementUser.java [input=management_user, output=management_user, pk=management_user_pkey]
+2022-07-08 18:49:56.466  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating table         : OrderInfo.java [input=order_info, output=order_info, pk=order_info_pkey]
+2022-07-08 18:49:56.488  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating table         : OrderType.java [input=order_type, output=order_type, pk=order_type_pkey]
+2022-07-08 18:49:56.505  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating table         : WebsiteUser.java [input=website_user, output=website_user, pk=website_user_pkey]
+2022-07-08 18:49:56.533  INFO 1736 --- [main] org.jooq.tools.StopWatch                 : Tables generated         : Total: 656.409ms, +238.777ms
+2022-07-08 18:49:56.533  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating table references
+2022-07-08 18:49:56.540  INFO 1736 --- [main] org.jooq.tools.StopWatch                 : Table refs generated     : Total: 663.636ms, +7.226ms
+2022-07-08 18:49:56.540  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating Keys          
+2022-07-08 18:49:56.628  INFO 1736 --- [main] org.jooq.tools.StopWatch                 : Keys generated           : Total: 752.062ms, +88.425ms
+2022-07-08 18:49:56.628  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating Indexes       
+2022-07-08 18:49:56.631  INFO 1736 --- [main] org.jooq.tools.StopWatch                 : Indexes generated        : Total: 754.493ms, +2.43ms
+2022-07-08 18:49:56.631  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating table records 
+2022-07-08 18:49:56.631  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating record        : FlywaySchemaHistoryRecord.java
+2022-07-08 18:49:56.661  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating record        : ManagementRoleRecord.java
+2022-07-08 18:49:56.681  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating record        : ManagementUserRecord.java
+2022-07-08 18:49:56.702  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating record        : OrderInfoRecord.java
+2022-07-08 18:49:56.722  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating record        : OrderTypeRecord.java
+2022-07-08 18:49:56.737  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Generating record        : WebsiteUserRecord.java
+2022-07-08 18:49:56.758  INFO 1736 --- [main] org.jooq.tools.StopWatch                 : Table records generated  : Total: 882.217ms, +127.724ms
+2022-07-08 18:49:56.783  INFO 1736 --- [main] org.jooq.meta.AbstractDatabase           : Domains fetched          : 0 (0 included, 0 excluded)
+2022-07-08 18:49:56.783  INFO 1736 --- [main] org.jooq.tools.StopWatch                 : Generation finished: public: Total: 907.234ms, +25.017ms
+2022-07-08 18:49:56.783  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           :                          
+2022-07-08 18:49:56.783  INFO 1736 --- [main] org.jooq.codegen.JavaGenerator           : Removing excess files    
+2022-07-08 18:49:56.785  INFO 1736 --- [main] r.a.k.c.JooqRecordsGeneratorConfigUtils  : Успешная генерация записей в Jooq
+2022-07-08 18:49:57.180  INFO 1736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-08 18:49:57.190  INFO 1736 --- [main] r.a.k.KamilowaHandMadeApplication        : Started KamilowaHandMadeApplication in 3.142 seconds (JVM running for 4.36)
+2022-07-08 19:03:08.590  INFO 1304 --- [main] r.a.k.KamilowaHandMadeApplication        : Starting KamilowaHandMadeApplication using Java 17.0.3.1 on LAPTOP-TP7586JQ with PID 1304 (C:\Users\Omar Akkulov\Desktop\kamilowa_hand_made_17\target\classes started by Omar Akkulov in C:\Users\Omar Akkulov\Desktop\kamilowa_hand_made_17)
+2022-07-08 19:03:08.593  INFO 1304 --- [main] r.a.k.KamilowaHandMadeApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-07-08 19:03:09.408  INFO 1304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-08 19:03:09.415  INFO 1304 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-08 19:03:09.415  INFO 1304 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-08 19:03:09.485  INFO 1304 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-08 19:03:09.485  INFO 1304 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 845 ms
+2022-07-08 19:03:09.587  INFO 1304 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 8.5.13 by Redgate
+2022-07-08 19:03:09.587  INFO 1304 --- [main] o.f.c.internal.license.VersionPrinter    : See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+2022-07-08 19:03:09.587  INFO 1304 --- [main] o.f.c.internal.license.VersionPrinter    : 
+2022-07-08 19:03:09.714  INFO 1304 --- [main] o.f.c.i.database.base.BaseDatabaseType   : Database: jdbc:postgresql://localhost:5432/kamilowa_hand_made_db (PostgreSQL 14.1)
+2022-07-08 19:03:09.746  INFO 1304 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 3 migrations (execution time 00:00.020s)
+2022-07-08 19:03:09.751  INFO 1304 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 1.2
+2022-07-08 19:03:09.752  INFO 1304 --- [main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2022-07-08 19:03:09.814  INFO 1304 --- [main] org.jooq.codegen.GenerationTool          : Database                 : Inferring driver org.postgresql.Driver from URL jdbc:postgresql://localhost:5432/kamilowa_hand_made_db
+2022-07-08 19:03:09.901  INFO 1304 --- [main] org.jooq.codegen.GenerationTool          : Database                 : Inferring database org.jooq.meta.postgres.PostgresDatabase from URL jdbc:postgresql://localhost:5432/kamilowa_hand_made_db
+2022-07-08 19:03:09.903  INFO 1304 --- [main] org.jooq.codegen.GenerationTool          : No <inputCatalog/> was provided. Generating ALL available catalogs instead.
+2022-07-08 19:03:09.919  INFO 1304 --- [main] org.jooq.codegen.AbstractGenerator       : License parameters       
+2022-07-08 19:03:09.919  INFO 1304 --- [main] org.jooq.codegen.AbstractGenerator       : ----------------------------------------------------------
+2022-07-08 19:03:09.919  INFO 1304 --- [main] org.jooq.codegen.AbstractGenerator       :   Thank you for using jOOQ and jOOQ's code generator
+2022-07-08 19:03:09.919  INFO 1304 --- [main] org.jooq.codegen.AbstractGenerator       :                          
+2022-07-08 19:03:09.919  INFO 1304 --- [main] org.jooq.codegen.AbstractGenerator       : Database parameters      
+2022-07-08 19:03:09.919  INFO 1304 --- [main] org.jooq.codegen.AbstractGenerator       : ----------------------------------------------------------
+2022-07-08 19:03:09.919  INFO 1304 --- [main] org.jooq.codegen.AbstractGenerator       :   dialect                : POSTGRES
+2022-07-08 19:03:09.919  INFO 1304 --- [main] org.jooq.codegen.AbstractGenerator       :   URL                    : jdbc:postgresql://localhost:5432/kamilowa_hand_made_db
+2022-07-08 19:03:09.919  INFO 1304 --- [main] org.jooq.codegen.AbstractGenerator       :   target dir             : C:\Users\Omar Akkulov\Desktop\kamilowa_hand_made_17\target\generated-sources\jooq
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.AbstractGenerator       :   target package         : org.jooq.generated
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.AbstractGenerator       :   includes               : [.*]
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.AbstractGenerator       :   excludes               : []
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.AbstractGenerator       :   includeExcludeColumns  : false
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.AbstractGenerator       : ----------------------------------------------------------
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :                          
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : JavaGenerator parameters 
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : ----------------------------------------------------------
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   annotations (generated): false
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   annotations (JPA: any) : false
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   annotations (JPA: version): 
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   annotations (validation): false
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   comments               : true
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   comments on attributes : true
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   comments on catalogs   : true
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   comments on columns    : true
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   comments on keys       : true
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   comments on links      : true
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   comments on packages   : true
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   comments on parameters : true
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   comments on queues     : true
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   comments on routines   : true
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   comments on schemas    : true
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   comments on sequences  : true
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   comments on tables     : true
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   comments on udts       : true
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   sources                : true
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   sources on views       : true
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   daos                   : false
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   deprecated code        : true
+2022-07-08 19:03:09.920  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   global references (any): true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   global references (catalogs): true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   global references (keys): true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   global references (links): true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   global references (queues): true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   global references (routines): true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   global references (schemas): true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   global references (sequences): true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   global references (tables): true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   global references (udts): true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   indexes                : true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   instance fields        : true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   interfaces             : false
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   interfaces (immutable) : false
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   javadoc                : true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   keys                   : true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   links                  : true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   pojos                  : false
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   pojos (immutable)      : false
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   queues                 : true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   records                : true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   routines               : true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   sequences              : true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   sequenceFlags          : true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   table-valued functions : true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   tables                 : true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   udts                   : true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :   relations              : true
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : ----------------------------------------------------------
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :                          
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.AbstractGenerator       : Generation remarks       
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.AbstractGenerator       : ----------------------------------------------------------
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :                          
+2022-07-08 19:03:09.921  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : ----------------------------------------------------------
+2022-07-08 19:03:09.923  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating catalogs      : Total: 1
+2022-07-08 19:03:10.110  INFO 1304 --- [main] org.jooq.Constants                       : 
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.13.4
+                                      
+2022-07-08 19:03:10.180  INFO 1304 --- [main] org.jooq.meta.AbstractDatabase           : ARRAYs fetched           : 0 (0 included, 0 excluded)
+2022-07-08 19:03:10.202  INFO 1304 --- [main] org.jooq.meta.AbstractDatabase           : Enums fetched            : 0 (0 included, 0 excluded)
+2022-07-08 19:03:10.202  INFO 1304 --- [main] org.jooq.meta.AbstractDatabase           : Packages fetched         : 0 (0 included, 0 excluded)
+2022-07-08 19:03:10.230  INFO 1304 --- [main] org.jooq.meta.AbstractDatabase           : Routines fetched         : 0 (0 included, 0 excluded)
+2022-07-08 19:03:10.241  INFO 1304 --- [main] org.jooq.meta.AbstractDatabase           : Sequences fetched        : 5 (5 included, 0 excluded)
+2022-07-08 19:03:10.241  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : No schema version is applied for catalog . Regenerating.
+2022-07-08 19:03:10.243  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :                          
+2022-07-08 19:03:10.243  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating catalog       : DefaultCatalog.java
+2022-07-08 19:03:10.243  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : ==========================================================
+2022-07-08 19:03:10.247  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating schemata      : Total: 1
+2022-07-08 19:03:10.247  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : No schema version is applied for schema public. Regenerating.
+2022-07-08 19:03:10.247  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating schema        : Public.java
+2022-07-08 19:03:10.247  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : ----------------------------------------------------------
+2022-07-08 19:03:10.270  INFO 1304 --- [main] org.jooq.meta.AbstractDatabase           : Tables fetched           : 6 (6 included, 0 excluded)
+2022-07-08 19:03:10.288  INFO 1304 --- [main] org.jooq.meta.AbstractDatabase           : UDTs fetched             : 0 (0 included, 0 excluded)
+2022-07-08 19:03:10.290  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating sequences     
+2022-07-08 19:03:10.305  INFO 1304 --- [main] org.jooq.tools.StopWatch                 : Sequences generated      : Total: 407.094ms
+2022-07-08 19:03:10.305  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating tables        
+2022-07-08 19:03:10.402  INFO 1304 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : management_role_created_by_id_fkey (public.management_role.created_by_id) referencing management_user_pkey
+2022-07-08 19:03:10.402  INFO 1304 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : management_role_last_modified_by_id_fkey (public.management_role.last_modified_by_id) referencing management_user_pkey
+2022-07-08 19:03:10.402  INFO 1304 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : management_user_created_by_id_fkey (public.management_user.created_by_id) referencing management_user_pkey
+2022-07-08 19:03:10.402  INFO 1304 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : management_user_last_modified_by_id_fkey (public.management_user.last_modified_by_id) referencing management_user_pkey
+2022-07-08 19:03:10.402  INFO 1304 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : order_info_created_by_id_fkey (public.order_info.created_by_id) referencing management_user_pkey
+2022-07-08 19:03:10.402  INFO 1304 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : order_info_last_modified_by_id_fkey (public.order_info.last_modified_by_id) referencing management_user_pkey
+2022-07-08 19:03:10.402  INFO 1304 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : order_info_order_type_id_fkey (public.order_info.order_type_id) referencing order_type_pkey
+2022-07-08 19:03:10.402  INFO 1304 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : order_type_created_by_id_fkey (public.order_type.created_by_id) referencing management_user_pkey
+2022-07-08 19:03:10.402  INFO 1304 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : order_type_last_modified_by_id_fkey (public.order_type.last_modified_by_id) referencing management_user_pkey
+2022-07-08 19:03:10.402  INFO 1304 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : website_user_created_by_id_fkey (public.website_user.created_by_id) referencing management_user_pkey
+2022-07-08 19:03:10.403  INFO 1304 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : website_user_last_modified_by_id_fkey (public.website_user.last_modified_by_id) referencing management_user_pkey
+2022-07-08 19:03:10.403  INFO 1304 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : website_user_management_role_fkey (public.website_user.management_role) referencing management_role_pkey
+2022-07-08 19:03:10.403  INFO 1304 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : website_user_order_id_fkey (public.website_user.order_id) referencing order_info_pkey
+2022-07-08 19:03:10.410  INFO 1304 --- [main] org.jooq.meta.AbstractDatabase           : Synthetic primary keys   : 0 (0 included, 0 excluded)
+2022-07-08 19:03:10.411  INFO 1304 --- [main] org.jooq.meta.AbstractDatabase           : Overriding primary keys  : 8 (0 included, 8 excluded)
+2022-07-08 19:03:10.412  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating table         : FlywaySchemaHistory.java [input=flyway_schema_history, output=flyway_schema_history, pk=flyway_schema_history_pk]
+2022-07-08 19:03:10.420  INFO 1304 --- [main] org.jooq.meta.AbstractDatabase           : Embeddables fetched      : 0 (0 included, 0 excluded)
+2022-07-08 19:03:10.435  INFO 1304 --- [main] org.jooq.meta.AbstractDatabase           : Indexes fetched          : 1 (1 included, 0 excluded)
+2022-07-08 19:03:10.447  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating table         : ManagementRole.java [input=management_role, output=management_role, pk=management_role_pkey]
+2022-07-08 19:03:10.468  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating table         : ManagementUser.java [input=management_user, output=management_user, pk=management_user_pkey]
+2022-07-08 19:03:10.490  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating table         : OrderInfo.java [input=order_info, output=order_info, pk=order_info_pkey]
+2022-07-08 19:03:10.512  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating table         : OrderType.java [input=order_type, output=order_type, pk=order_type_pkey]
+2022-07-08 19:03:10.530  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating table         : WebsiteUser.java [input=website_user, output=website_user, pk=website_user_pkey]
+2022-07-08 19:03:10.554  INFO 1304 --- [main] org.jooq.tools.StopWatch                 : Tables generated         : Total: 657.202ms, +250.108ms
+2022-07-08 19:03:10.554  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating table references
+2022-07-08 19:03:10.560  INFO 1304 --- [main] org.jooq.tools.StopWatch                 : Table refs generated     : Total: 663.066ms, +5.863ms
+2022-07-08 19:03:10.560  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating Keys          
+2022-07-08 19:03:10.638  INFO 1304 --- [main] org.jooq.tools.StopWatch                 : Keys generated           : Total: 740.309ms, +77.243ms
+2022-07-08 19:03:10.638  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating Indexes       
+2022-07-08 19:03:10.640  INFO 1304 --- [main] org.jooq.tools.StopWatch                 : Indexes generated        : Total: 742.985ms, +2.675ms
+2022-07-08 19:03:10.640  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating table records 
+2022-07-08 19:03:10.641  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating record        : FlywaySchemaHistoryRecord.java
+2022-07-08 19:03:10.670  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating record        : ManagementRoleRecord.java
+2022-07-08 19:03:10.690  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating record        : ManagementUserRecord.java
+2022-07-08 19:03:10.715  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating record        : OrderInfoRecord.java
+2022-07-08 19:03:10.736  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating record        : OrderTypeRecord.java
+2022-07-08 19:03:10.755  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Generating record        : WebsiteUserRecord.java
+2022-07-08 19:03:10.780  INFO 1304 --- [main] org.jooq.tools.StopWatch                 : Table records generated  : Total: 883.697ms, +140.712ms
+2022-07-08 19:03:10.807  INFO 1304 --- [main] org.jooq.meta.AbstractDatabase           : Domains fetched          : 0 (0 included, 0 excluded)
+2022-07-08 19:03:10.807  INFO 1304 --- [main] org.jooq.tools.StopWatch                 : Generation finished: public: Total: 910.127ms, +26.429ms
+2022-07-08 19:03:10.807  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           :                          
+2022-07-08 19:03:10.807  INFO 1304 --- [main] org.jooq.codegen.JavaGenerator           : Removing excess files    
+2022-07-08 19:03:10.811  INFO 1304 --- [main] r.a.k.c.JooqRecordsGeneratorConfigUtils  : Успешная генерация записей в Jooq
+2022-07-08 19:03:11.205  INFO 1304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-08 19:03:11.214  INFO 1304 --- [main] r.a.k.KamilowaHandMadeApplication        : Started KamilowaHandMadeApplication in 3.034 seconds (JVM running for 3.696)
+2022-07-08 19:04:44.381  INFO 16140 --- [main] r.a.k.KamilowaHandMadeApplication        : Starting KamilowaHandMadeApplication using Java 17.0.3.1 on LAPTOP-TP7586JQ with PID 16140 (C:\Users\Omar Akkulov\Desktop\kamilowa_hand_made_17\target\classes started by Omar Akkulov in C:\Users\Omar Akkulov\Desktop\kamilowa_hand_made_17)
+2022-07-08 19:04:44.384  INFO 16140 --- [main] r.a.k.KamilowaHandMadeApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-07-08 19:04:45.099  INFO 16140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-08 19:04:45.106  INFO 16140 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-08 19:04:45.106  INFO 16140 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-08 19:04:45.180  INFO 16140 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-08 19:04:45.180  INFO 16140 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 752 ms
+2022-07-08 19:04:45.288  INFO 16140 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 8.5.13 by Redgate
+2022-07-08 19:04:45.288  INFO 16140 --- [main] o.f.c.internal.license.VersionPrinter    : See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+2022-07-08 19:04:45.288  INFO 16140 --- [main] o.f.c.internal.license.VersionPrinter    : 
+2022-07-08 19:04:45.528  INFO 16140 --- [main] o.f.c.i.database.base.BaseDatabaseType   : Database: jdbc:postgresql://localhost:5432/kamilowa_hand_made_db (PostgreSQL 14.1)
+2022-07-08 19:04:45.559  INFO 16140 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 3 migrations (execution time 00:00.018s)
+2022-07-08 19:04:45.564  INFO 16140 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 1.2
+2022-07-08 19:04:45.564  INFO 16140 --- [main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2022-07-08 19:04:45.625  INFO 16140 --- [main] org.jooq.codegen.GenerationTool          : Database                 : Inferring driver org.postgresql.Driver from URL jdbc:postgresql://localhost:5432/kamilowa_hand_made_db
+2022-07-08 19:04:45.710  INFO 16140 --- [main] org.jooq.codegen.GenerationTool          : Database                 : Inferring database org.jooq.meta.postgres.PostgresDatabase from URL jdbc:postgresql://localhost:5432/kamilowa_hand_made_db
+2022-07-08 19:04:45.712  INFO 16140 --- [main] org.jooq.codegen.GenerationTool          : No <inputCatalog/> was provided. Generating ALL available catalogs instead.
+2022-07-08 19:04:45.726  INFO 16140 --- [main] org.jooq.codegen.AbstractGenerator       : License parameters       
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.AbstractGenerator       : ----------------------------------------------------------
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.AbstractGenerator       :   Thank you for using jOOQ and jOOQ's code generator
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.AbstractGenerator       :                          
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.AbstractGenerator       : Database parameters      
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.AbstractGenerator       : ----------------------------------------------------------
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.AbstractGenerator       :   dialect                : POSTGRES
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.AbstractGenerator       :   URL                    : jdbc:postgresql://localhost:5432/kamilowa_hand_made_db
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.AbstractGenerator       :   target dir             : C:\Users\Omar Akkulov\Desktop\kamilowa_hand_made_17\target\generated-sources\jooq
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.AbstractGenerator       :   target package         : org.jooq.generated
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.AbstractGenerator       :   includes               : [.*]
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.AbstractGenerator       :   excludes               : []
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.AbstractGenerator       :   includeExcludeColumns  : false
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.AbstractGenerator       : ----------------------------------------------------------
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :                          
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : JavaGenerator parameters 
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : ----------------------------------------------------------
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   annotations (generated): false
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   annotations (JPA: any) : false
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   annotations (JPA: version): 
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   annotations (validation): false
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   comments               : true
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   comments on attributes : true
+2022-07-08 19:04:45.727  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   comments on catalogs   : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   comments on columns    : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   comments on keys       : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   comments on links      : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   comments on packages   : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   comments on parameters : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   comments on queues     : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   comments on routines   : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   comments on schemas    : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   comments on sequences  : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   comments on tables     : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   comments on udts       : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   sources                : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   sources on views       : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   daos                   : false
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   deprecated code        : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   global references (any): true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   global references (catalogs): true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   global references (keys): true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   global references (links): true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   global references (queues): true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   global references (routines): true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   global references (schemas): true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   global references (sequences): true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   global references (tables): true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   global references (udts): true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   indexes                : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   instance fields        : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   interfaces             : false
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   interfaces (immutable) : false
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   javadoc                : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   keys                   : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   links                  : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   pojos                  : false
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   pojos (immutable)      : false
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   queues                 : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   records                : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   routines               : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   sequences              : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   sequenceFlags          : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   table-valued functions : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   tables                 : true
+2022-07-08 19:04:45.728  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   udts                   : true
+2022-07-08 19:04:45.729  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :   relations              : true
+2022-07-08 19:04:45.729  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : ----------------------------------------------------------
+2022-07-08 19:04:45.729  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :                          
+2022-07-08 19:04:45.729  INFO 16140 --- [main] org.jooq.codegen.AbstractGenerator       : Generation remarks       
+2022-07-08 19:04:45.729  INFO 16140 --- [main] org.jooq.codegen.AbstractGenerator       : ----------------------------------------------------------
+2022-07-08 19:04:45.729  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :                          
+2022-07-08 19:04:45.729  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : ----------------------------------------------------------
+2022-07-08 19:04:45.730  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating catalogs      : Total: 1
+2022-07-08 19:04:45.902  INFO 16140 --- [main] org.jooq.Constants                       : 
+                                      
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@  @@@@  @@  @@    @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@    @@  @@  @@@@  @@@@@@@@@@
+@@@@@@@@@@        @@  @  @  @@@@@@@@@@
+@@@@@@@@@@        @@        @@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  Thank you for using jOOQ 3.13.4
+                                      
+2022-07-08 19:04:45.960  INFO 16140 --- [main] org.jooq.meta.AbstractDatabase           : ARRAYs fetched           : 0 (0 included, 0 excluded)
+2022-07-08 19:04:45.985  INFO 16140 --- [main] org.jooq.meta.AbstractDatabase           : Enums fetched            : 0 (0 included, 0 excluded)
+2022-07-08 19:04:45.986  INFO 16140 --- [main] org.jooq.meta.AbstractDatabase           : Packages fetched         : 0 (0 included, 0 excluded)
+2022-07-08 19:04:46.018  INFO 16140 --- [main] org.jooq.meta.AbstractDatabase           : Routines fetched         : 0 (0 included, 0 excluded)
+2022-07-08 19:04:46.032  INFO 16140 --- [main] org.jooq.meta.AbstractDatabase           : Sequences fetched        : 5 (5 included, 0 excluded)
+2022-07-08 19:04:46.032  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : No schema version is applied for catalog . Regenerating.
+2022-07-08 19:04:46.033  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :                          
+2022-07-08 19:04:46.033  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating catalog       : DefaultCatalog.java
+2022-07-08 19:04:46.033  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : ==========================================================
+2022-07-08 19:04:46.036  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating schemata      : Total: 1
+2022-07-08 19:04:46.036  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : No schema version is applied for schema public. Regenerating.
+2022-07-08 19:04:46.036  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating schema        : Public.java
+2022-07-08 19:04:46.036  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : ----------------------------------------------------------
+2022-07-08 19:04:46.059  INFO 16140 --- [main] org.jooq.meta.AbstractDatabase           : Tables fetched           : 6 (6 included, 0 excluded)
+2022-07-08 19:04:46.079  INFO 16140 --- [main] org.jooq.meta.AbstractDatabase           : UDTs fetched             : 0 (0 included, 0 excluded)
+2022-07-08 19:04:46.080  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating sequences     
+2022-07-08 19:04:46.089  INFO 16140 --- [main] org.jooq.tools.StopWatch                 : Sequences generated      : Total: 382.775ms
+2022-07-08 19:04:46.089  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating tables        
+2022-07-08 19:04:46.187  INFO 16140 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : management_role_created_by_id_fkey (public.management_role.created_by_id) referencing management_user_pkey
+2022-07-08 19:04:46.188  INFO 16140 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : management_role_last_modified_by_id_fkey (public.management_role.last_modified_by_id) referencing management_user_pkey
+2022-07-08 19:04:46.188  INFO 16140 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : management_user_created_by_id_fkey (public.management_user.created_by_id) referencing management_user_pkey
+2022-07-08 19:04:46.188  INFO 16140 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : management_user_last_modified_by_id_fkey (public.management_user.last_modified_by_id) referencing management_user_pkey
+2022-07-08 19:04:46.188  INFO 16140 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : order_info_created_by_id_fkey (public.order_info.created_by_id) referencing management_user_pkey
+2022-07-08 19:04:46.188  INFO 16140 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : order_info_last_modified_by_id_fkey (public.order_info.last_modified_by_id) referencing management_user_pkey
+2022-07-08 19:04:46.188  INFO 16140 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : order_info_order_type_id_fkey (public.order_info.order_type_id) referencing order_type_pkey
+2022-07-08 19:04:46.188  INFO 16140 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : order_type_created_by_id_fkey (public.order_type.created_by_id) referencing management_user_pkey
+2022-07-08 19:04:46.188  INFO 16140 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : order_type_last_modified_by_id_fkey (public.order_type.last_modified_by_id) referencing management_user_pkey
+2022-07-08 19:04:46.189  INFO 16140 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : website_user_created_by_id_fkey (public.website_user.created_by_id) referencing management_user_pkey
+2022-07-08 19:04:46.189  INFO 16140 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : website_user_last_modified_by_id_fkey (public.website_user.last_modified_by_id) referencing management_user_pkey
+2022-07-08 19:04:46.189  INFO 16140 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : website_user_management_role_fkey (public.website_user.management_role) referencing management_role_pkey
+2022-07-08 19:04:46.189  INFO 16140 --- [main] org.jooq.meta.DefaultRelations           : Adding foreign key       : website_user_order_id_fkey (public.website_user.order_id) referencing order_info_pkey
+2022-07-08 19:04:46.197  INFO 16140 --- [main] org.jooq.meta.AbstractDatabase           : Synthetic primary keys   : 0 (0 included, 0 excluded)
+2022-07-08 19:04:46.198  INFO 16140 --- [main] org.jooq.meta.AbstractDatabase           : Overriding primary keys  : 8 (0 included, 8 excluded)
+2022-07-08 19:04:46.199  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating table         : FlywaySchemaHistory.java [input=flyway_schema_history, output=flyway_schema_history, pk=flyway_schema_history_pk]
+2022-07-08 19:04:46.208  INFO 16140 --- [main] org.jooq.meta.AbstractDatabase           : Embeddables fetched      : 0 (0 included, 0 excluded)
+2022-07-08 19:04:46.222  INFO 16140 --- [main] org.jooq.meta.AbstractDatabase           : Indexes fetched          : 1 (1 included, 0 excluded)
+2022-07-08 19:04:46.232  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating table         : ManagementRole.java [input=management_role, output=management_role, pk=management_role_pkey]
+2022-07-08 19:04:46.252  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating table         : ManagementUser.java [input=management_user, output=management_user, pk=management_user_pkey]
+2022-07-08 19:04:46.273  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating table         : OrderInfo.java [input=order_info, output=order_info, pk=order_info_pkey]
+2022-07-08 19:04:46.293  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating table         : OrderType.java [input=order_type, output=order_type, pk=order_type_pkey]
+2022-07-08 19:04:46.309  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating table         : WebsiteUser.java [input=website_user, output=website_user, pk=website_user_pkey]
+2022-07-08 19:04:46.328  INFO 16140 --- [main] org.jooq.tools.StopWatch                 : Tables generated         : Total: 622.815ms, +240.04ms
+2022-07-08 19:04:46.328  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating table references
+2022-07-08 19:04:46.333  INFO 16140 --- [main] org.jooq.tools.StopWatch                 : Table refs generated     : Total: 627.759ms, +4.944ms
+2022-07-08 19:04:46.333  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating Keys          
+2022-07-08 19:04:46.408  INFO 16140 --- [main] org.jooq.tools.StopWatch                 : Keys generated           : Total: 702.542ms, +74.783ms
+2022-07-08 19:04:46.408  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating Indexes       
+2022-07-08 19:04:46.410  INFO 16140 --- [main] org.jooq.tools.StopWatch                 : Indexes generated        : Total: 704.893ms, +2.35ms
+2022-07-08 19:04:46.411  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating table records 
+2022-07-08 19:04:46.411  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating record        : FlywaySchemaHistoryRecord.java
+2022-07-08 19:04:46.439  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating record        : ManagementRoleRecord.java
+2022-07-08 19:04:46.457  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating record        : ManagementUserRecord.java
+2022-07-08 19:04:46.478  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating record        : OrderInfoRecord.java
+2022-07-08 19:04:46.496  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating record        : OrderTypeRecord.java
+2022-07-08 19:04:46.511  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Generating record        : WebsiteUserRecord.java
+2022-07-08 19:04:46.531  INFO 16140 --- [main] org.jooq.tools.StopWatch                 : Table records generated  : Total: 824.863ms, +119.969ms
+2022-07-08 19:04:46.550  INFO 16140 --- [main] org.jooq.meta.AbstractDatabase           : Domains fetched          : 0 (0 included, 0 excluded)
+2022-07-08 19:04:46.550  INFO 16140 --- [main] org.jooq.tools.StopWatch                 : Generation finished: public: Total: 844.114ms, +19.251ms
+2022-07-08 19:04:46.550  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           :                          
+2022-07-08 19:04:46.550  INFO 16140 --- [main] org.jooq.codegen.JavaGenerator           : Removing excess files    
+2022-07-08 19:04:46.552  INFO 16140 --- [main] r.a.k.c.JooqRecordsGeneratorConfigUtils  : Успешная генерация записей в Jooq
+2022-07-08 19:04:46.942  INFO 16140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-08 19:04:46.950  INFO 16140 --- [main] r.a.k.KamilowaHandMadeApplication        : Started KamilowaHandMadeApplication in 2.943 seconds (JVM running for 3.501)
